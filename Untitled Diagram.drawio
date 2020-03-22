@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-22T15:02:14.203Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="MgV6yj6xFeANcvbyyMgM" version="12.8.8" type="github">
+<mxfile host="www.draw.io" modified="2020-03-22T15:30:04.876Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="jm6no-yGNILXhftKmKV3" version="12.8.8" type="github">
   <diagram id="q5J5VjdaekCsHLT_Fb5d" name="Page-1">
     <mxGraphModel dx="946" dy="1792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -74,16 +74,16 @@
             <mxPoint x="465" y="-205" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yH4w1KLQsGXhBWExLYoO-43" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;Event&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;+ eventData: Object&lt;br&gt;+ eventRule: Object&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="260" y="530" width="180" height="90" as="geometry" />
+        <mxCell id="yH4w1KLQsGXhBWExLYoO-43" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;Event&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;+ eventData: Object //埋点数据&amp;nbsp;&lt;br&gt;+ eventRule: Object //埋点渲染规则&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="530" width="230" height="100" as="geometry" />
         </mxCell>
         <mxCell id="yH4w1KLQsGXhBWExLYoO-44" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="yH4w1KLQsGXhBWExLYoO-43">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yH4w1KLQsGXhBWExLYoO-45" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;EventAttr&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;+ attrLabel: String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;+ attrValue: Any&lt;br&gt;+ attrRule: Object&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="260" y="700" width="180" height="90" as="geometry" />
+        <mxCell id="yH4w1KLQsGXhBWExLYoO-45" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;EventAttr&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;+ attrLabel: String // 埋点属性名&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;+ attrValue: Any // 埋点属性值&lt;br&gt;+ attrRule: Object // 埋点属性渲染规则&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="700" width="230" height="90" as="geometry" />
         </mxCell>
         <mxCell id="yH4w1KLQsGXhBWExLYoO-46" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="yH4w1KLQsGXhBWExLYoO-45">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -106,9 +106,9 @@
             <mxPoint x="334" y="840" as="sourcePoint" />
             <mxPoint x="570" y="840" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="350" y="840" />
-              <mxPoint x="520" y="840" />
-              <mxPoint x="520" y="745" />
+              <mxPoint x="375" y="840" />
+              <mxPoint x="540" y="840" />
+              <mxPoint x="540" y="745" />
             </Array>
           </mxGeometry>
         </mxCell>
