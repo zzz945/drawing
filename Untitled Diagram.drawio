@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-22T07:05:29.398Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="bMniGkwunuderi8jUmzo" version="12.8.8" type="github">
+<mxfile host="www.draw.io" modified="2020-03-22T07:06:52.625Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="6KyYX_GWxsSHCI9DZdZn" version="12.8.8" type="github">
   <diagram id="q5J5VjdaekCsHLT_Fb5d" name="Page-1">
     <mxGraphModel dx="946" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,10 +7,10 @@
         <mxCell id="yH4w1KLQsGXhBWExLYoO-1" value="web用户端&lt;br&gt;场景还原&lt;br&gt;&lt;b&gt;*埋点渲染器&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="340" y="130" width="176" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yH4w1KLQsGXhBWExLYoO-2" value="web管理端&lt;br&gt;&lt;b&gt;*埋点展示规则配置&lt;br&gt;&lt;/b&gt;*应用接入配置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="yH4w1KLQsGXhBWExLYoO-2" value="web管理端&lt;br&gt;&lt;b&gt;*埋点渲染规则配置&lt;br&gt;&lt;/b&gt;*应用接入配置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="564" y="130" width="176" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yH4w1KLQsGXhBWExLYoO-3" value="nodejs服务端&lt;br&gt;实现业务逻辑，提供http接口&lt;br&gt;&lt;b&gt;*埋点与埋点展示规则匹配&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="yH4w1KLQsGXhBWExLYoO-3" value="nodejs服务端&lt;br&gt;实现业务逻辑，提供http接口&lt;br&gt;&lt;b&gt;*埋点与埋点渲染规则匹配&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="340" y="260" width="400" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yH4w1KLQsGXhBWExLYoO-4" value="实时大数据仓库&lt;br&gt;druid&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -22,7 +22,7 @@
         <mxCell id="yH4w1KLQsGXhBWExLYoO-6" value="数据清洗/处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="260" width="176" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yH4w1KLQsGXhBWExLYoO-7" value="mysql&lt;br&gt;&lt;b&gt;*埋点展示规则配置&lt;br&gt;&lt;/b&gt;*应用接入配置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="yH4w1KLQsGXhBWExLYoO-7" value="mysql&lt;br&gt;&lt;b&gt;*埋点渲染规则配置&lt;br&gt;&lt;/b&gt;*应用接入配置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="600" y="390" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yH4w1KLQsGXhBWExLYoO-8" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="yH4w1KLQsGXhBWExLYoO-6">
