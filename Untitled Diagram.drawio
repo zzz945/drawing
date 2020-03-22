@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-03-22T07:06:52.625Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="6KyYX_GWxsSHCI9DZdZn" version="12.8.8" type="github">
+<mxfile host="www.draw.io" modified="2020-03-22T14:50:57.759Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="Qwb6sgSazm5uUkDiClLm" version="12.8.8" type="github">
   <diagram id="q5J5VjdaekCsHLT_Fb5d" name="Page-1">
-    <mxGraphModel dx="946" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="1792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,7 +17,7 @@
           <mxGeometry x="70" y="390" width="450" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yH4w1KLQsGXhBWExLYoO-5" value="数据采集&lt;br&gt;外卖APP omega埋点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="130" width="176" height="70" as="geometry" />
+          <mxGeometry x="150" y="-240" width="176" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yH4w1KLQsGXhBWExLYoO-6" value="数据清洗/处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="260" width="176" height="70" as="geometry" />
@@ -60,6 +60,18 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="430" y="320" as="sourcePoint" />
             <mxPoint x="480" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yH4w1KLQsGXhBWExLYoO-30" value="数据采集&lt;br&gt;外卖APP omega埋点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="140" width="176" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yH4w1KLQsGXhBWExLYoO-31" value="web用户端&lt;br&gt;场景还原" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="464" y="-240" width="176" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yH4w1KLQsGXhBWExLYoO-38" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="yH4w1KLQsGXhBWExLYoO-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="50" as="sourcePoint" />
+            <mxPoint x="465" y="-205" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
