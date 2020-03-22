@@ -1,23 +1,66 @@
-<mxfile host="www.draw.io" modified="2020-03-22T03:05:37.966Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="Gx24ozOWcO1ru1YOoL7c" version="12.8.8" type="github">
+<mxfile host="www.draw.io" modified="2020-03-22T05:54:01.857Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="HYg4LPTA50qicgOg6QxI" version="12.8.8" type="github">
   <diagram id="q5J5VjdaekCsHLT_Fb5d" name="Page-1">
     <mxGraphModel dx="946" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="yH4w1KLQsGXhBWExLYoO-1" value="用户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="130" width="176" height="70" as="geometry" />
+        <mxCell id="yH4w1KLQsGXhBWExLYoO-1" value="web用户端&lt;br&gt;场景还原" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="340" y="130" width="176" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yH4w1KLQsGXhBWExLYoO-2" value="管理端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="394" y="130" width="176" height="70" as="geometry" />
+        <mxCell id="yH4w1KLQsGXhBWExLYoO-2" value="web管理端&lt;br&gt;埋点展示规则配置&lt;br&gt;应用接入配置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="564" y="130" width="176" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yH4w1KLQsGXhBWExLYoO-3" value="服务端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="280" width="176" height="70" as="geometry" />
+        <mxCell id="yH4w1KLQsGXhBWExLYoO-3" value="nodejs服务端&lt;br&gt;实现业务逻辑，提供http接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="340" y="260" width="400" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yH4w1KLQsGXhBWExLYoO-4" value="数据层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="390" width="176" height="70" as="geometry" />
+        <mxCell id="yH4w1KLQsGXhBWExLYoO-4" value="实时大数据仓库&lt;br&gt;druid&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="390" width="450" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yH4w1KLQsGXhBWExLYoO-5" value="数据源" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yH4w1KLQsGXhBWExLYoO-5" value="数据采集&lt;br&gt;外卖APP omega埋点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="130" width="176" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yH4w1KLQsGXhBWExLYoO-6" value="数据清洗/处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="260" width="176" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yH4w1KLQsGXhBWExLYoO-7" value="mysql&lt;br&gt;埋点展示规则配置&lt;br&gt;应用接入配置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="600" y="390" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yH4w1KLQsGXhBWExLYoO-8" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="yH4w1KLQsGXhBWExLYoO-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="158" y="201" as="sourcePoint" />
+            <mxPoint x="480" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yH4w1KLQsGXhBWExLYoO-9" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="157.5" y="330" as="sourcePoint" />
+            <mxPoint x="157.5" y="389" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yH4w1KLQsGXhBWExLYoO-10" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.22;exitY=0.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="yH4w1KLQsGXhBWExLYoO-3" target="yH4w1KLQsGXhBWExLYoO-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="658" y="261" as="sourcePoint" />
+            <mxPoint x="690" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yH4w1KLQsGXhBWExLYoO-12" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.825;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yH4w1KLQsGXhBWExLYoO-7" target="yH4w1KLQsGXhBWExLYoO-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="380" as="sourcePoint" />
+            <mxPoint x="700" y="330" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yH4w1KLQsGXhBWExLYoO-13" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.78;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yH4w1KLQsGXhBWExLYoO-2" target="yH4w1KLQsGXhBWExLYoO-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="250" as="sourcePoint" />
+            <mxPoint x="700" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yH4w1KLQsGXhBWExLYoO-22" value="" style="endArrow=classic;html=1;entryX=0.23;entryY=1.029;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.793;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="yH4w1KLQsGXhBWExLYoO-4" target="yH4w1KLQsGXhBWExLYoO-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="320" as="sourcePoint" />
+            <mxPoint x="480" y="270" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
